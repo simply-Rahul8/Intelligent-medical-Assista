@@ -1,0 +1,70 @@
+
+
+1.  streamlit run app.py
+
+- **API Key:**  
+  Make sure your Perplexity AI API key is set in your environment or `.streamlit/secrets.toml`.
+
+2. Enter Medical Information
+
+- Paste or type the patient’s medical record, clinical note, or procedure details into the input box on the main page and click alt+enter to stop editing the text.
+ Sample medical input records:
+
+### 1. **Patient: P001**
+- **Procedure:** Mole Removal
+- **Description:** Removal of a benign mole located on the left arm. The procedure includes local anesthesia and excision of the mole for biopsy.
+- **Diagnosis:** Benign melanocytic nevus
+- **ICD-10 Code:** D22.9
+
+### 2. **Patient: P002**
+- **Procedure:** Cataract Surgery
+- **Description:** Phacoemulsification surgery to remove cataract from the right eye, followed by intraocular lens implantation.
+- **Diagnosis:** Age-related cataract
+- **ICD-10 Code:** H25.9
+
+### 3. **Patient: P003**
+- **Procedure:** Appendectomy
+- **Description:** Laparoscopic appendectomy performed to remove an inflamed appendix due to acute appendicitis.
+- **Diagnosis:** Acute appendicitis
+- **ICD-10 Code:** K35.80
+
+-> Click **"Generate Consent Summary"** to create a plain-language summary.
+
+3. Review the Consent Summary
+
+- Read the generated summary presented on the screen.
+- To listen to it, click **"Read Summary Aloud"** (audio will play automatically).
+
+ 4. Patient Q&A — Ask Your Questions
+
+- Type your question in the text box, or
+- Click **"Record Question"** and speak your question into your microphone.
+- Click **"Submit Question"** to receive a plain-language answer from the AI.
+- To hear the answer, click **"Read Answer Aloud"**.
+
+ 5. Review Conversation History (Optional)
+
+- All previous questions and answers from the current session appear as a conversation history for easy review.
+
+ 6. Provide Consent
+
+- Choose **how to give consent:**
+    - **Verbal Consent:**  
+      Click **"Record Verbal Consent"**, then say “I consent” clearly.
+      better say " I consent" two times.
+    - **Digital Signature:**  
+      Draw your signature using the signature pad on screen and click **"Submit Signature"**.
+
+## 7. Confirmation
+
+- Once consent is captured, you will see a **"Consent Complete"** message.
+- The application logs only the medical record (with timestamp) for privacy; no personal data or audio is retained.
+
+## 8. Troubleshooting Tips
+
+- **Missing API key:**  
+  Make sure your Perplexity AI API key is set up.
+- **Audio not working:**  
+  Check your device's microphone and speaker permissions.
+- For more help or to restart the process, refresh the app and start again.
+
